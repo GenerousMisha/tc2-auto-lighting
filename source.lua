@@ -15,6 +15,7 @@ UI.Parent = interface
 interface.Title = "TC2 Auto Lighting"
 interface.Enabled = false
 
+-- Warns player using <text>
 local function warnPlayer(text)
 	local warning = UI.Required:Clone()
 	
